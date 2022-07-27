@@ -1,0 +1,23 @@
+.contenar{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(5,200px);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+.box{
+  background-color: tomato;
+  text-align: center;
+}
+.box1{
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
+.box7{
+  grid-column: 1/5;
+  grid-row: 2/3;
+}
+.box2{
+  grid-row:2/3;
+}
